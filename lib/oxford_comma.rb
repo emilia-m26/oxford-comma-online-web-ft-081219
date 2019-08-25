@@ -4,7 +4,7 @@ def oxford_comma(array)
   elsif 
     array.length >= 3
     array.pop
-    return array << "and #{array.last}
+    return array << "and #{array.last}"
   else
     return array.join()
   end
